@@ -183,12 +183,14 @@ def replace_random_character(s): # Or replace
 
 def swap_random_characters(s: str) -> str:
     """Returns s with a random two character Swaped"""
+    if s == "":
+        return s
     char_list = list(s)
-
     # Find the indices of the characters to swap
     index_char1 = random.randint(0, len(s) - 1)
     index_char2 = random.randint(0, len(s) - 1)
 
+    
     # Swap the characters in the list
     char_list[index_char1], char_list[index_char2] = char_list[index_char2], char_list[index_char1]
 
