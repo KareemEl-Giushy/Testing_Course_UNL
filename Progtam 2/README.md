@@ -1,5 +1,5 @@
 # Delta Debugger (Prgoram 2)
-Build a delta debugger to reduce input text based on what an oracle finds interesting.
+A delta debugger script to reduce input text based on what an oracle finds interesting. (e.g. ```0``` if it is interesting and ```1``` if it's not)
 
 ## Installation:
 
@@ -13,7 +13,7 @@ OR you can just install the ```requirements.txt``` file provided with the code.
 
 ## Executing / Running The Script:
 
-**Make sure to include the ```input file``` first and then the ```Oracal File```**
+**Make sure to include the ```input file``` first and then the ```Oracal File``` in that order.**
 
 1. Open your terminal and make sure you are in the same directory as the script and enter the following command:
     ```
